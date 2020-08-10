@@ -11,6 +11,7 @@ json.dump(response.json(), fs)
 fs.close()
 
 
+
 nba_json =response.json()
 
 for datapoint in nba_json["data"]:
